@@ -1,0 +1,118 @@
+.form-em-detail .dialog-content {
+    top: 24px;
+    left: 28%;
+    width: 701px;
+    margin: auto;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.form-em-detail .model {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.4;
+    /* z-index: -999; */
+}
+
+.employee-detail-title {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 24px 0px 16px 24px;
+}
+
+.em-del-content {
+    padding-bottom: 8px;
+    padding-right: 24px;
+    display: flex;
+}
+
+.form-em-detail .em-del-content .em-avatar {
+    width: 130px;
+    padding-left: 24px;
+    float: left;
+}
+
+.form-em-detail .em-del-content .em-resume {
+    float: left;
+    width: calc(700px - 130px);
+    box-sizing: border-box;
+}
+
+.em-resume .em-resume-common .title-re-com {
+    font-size: 15px;
+    padding-bottom: 16px;
+    /* margin-bottom: 8px; */
+}
+
+.form-em-detail .bth-option {
+    height: 100px;
+    width: 100%;
+    background-color: #d2d2d2;
+}
+
+.em-del-content .em-avatar .icon-avatar {
+    width: 130px;
+    height: 130px;
+    background-image: url(../../content/img/default-avatar.jpg);
+    background-size: contain;
+    border: 1px solid #e5e5e5;
+    background-position: cover;
+    border-radius: 50%;
+    align-items: center;
+    /* background-position: 10px center; */
+}
+
+.notify-em {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    list-style: 44px;
+}
+
+.em-resume {
+    /* background-color: aliceblue; */
+    padding-left: 16px;
+}
+
+.em-resume-common .input-item .top-employ {
+    display: inline;
+    float: left;
+}
+
+.em-resume-common .input-item .name-em {
+    margin-left: 16px;
+}
+
+.em-resume-common .input-item {
+    padding-bottom: 16px;
+}
+
+hr {
+    width: 75px;
+    margin-left: 0;
+    border: 2px solid #019160;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.clearfix:after {
+    clear: both;
+    display: table;
+    content: " ";
+    padding-bottom: 8px;
+}
+
+i.far.fa-save::before {
+    padding-left: 16px;
+    padding-right: 8px;
+}
+
+/* *, *:after, *:before {
+    box-sizing: border-box;
+} */

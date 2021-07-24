@@ -1,0 +1,42 @@
+label{
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
+input {
+    border-radius: 4px;
+    font-size: 13px;
+    border: 1px solid #bbbbbb;
+    line-height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    outline: none;
+    height: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+input::placeholder {
+    font-size: 11px;
+}
+
+input:focus {
+    border: 1px solid #019160;
+}
+
+.input-done-state {
+    border: 1px solid #bbbbbb;
+}
+
+.input-error-state {
+    border: 1px solid #ff4747;
+}
+
+.input-search {
+    padding-left: 40px;
+    margin-right: 16px;
+}
+
+input[type="date"]{
+    width: 98%!important;
+}

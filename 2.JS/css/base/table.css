@@ -1,0 +1,87 @@
+table.table {
+    border-collapse: collapse;
+}
+
+table.table tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #bbbbbb;
+    border-top: 1px solid #bbbbbb;
+    cursor: pointer;
+}
+
+table.table tbody tr:hover {
+    background-color: #bbb;
+}
+
+table.table tbody tr.row-selected {
+    background-color: #e9EBEE;
+}
+
+table th, td {
+    padding-right: 8px;
+    padding-left: 10px;
+    white-space: nowrap;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+table.table tbody tr td:first-child {
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.text-inline-description {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e9ebee;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e9ebee;
+}
+
+.table-striped>tbody>tr:hover {
+    background-color: #2FBE8E;
+}
+
+.table.table-striped tr {
+    height: 48px;
+    align-items: center;
+}
+
+.content-table {
+    overflow: scroll;
+    /* border-bottom: 4px solid #bbbbbb; */
+}
+
+.table.table-striped thead>tr {
+    background-color: #fff;
+}
+
+th {
+    background-color: #fff;
+    top: 0;
+    position: sticky;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

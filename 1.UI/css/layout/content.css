@@ -1,0 +1,118 @@
+.content {
+    position: absolute;
+    top: 49px;
+    left: 246px;
+    height: calc(100% - 49px);
+    z-index: -10;
+    width: calc(100% - 225px - 24px - 16px);
+    margin-right: 16px;
+}
+
+.content-table table.table.table-striped {
+    font-family: 'GoogleSans';
+    font-size: 13px;
+}
+
+.content .content-table {
+    margin-top: 16px;
+    width: 100%;
+    /* padding-right: 16px; */
+}
+
+.table td {
+    font-weight: bold;
+}
+
+.content .content-title {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.content-title-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .content-title .button-new {
+    position: absolute;
+    right: 0px;
+}
+
+.content .content-title .button-new .button-icon {
+    background-image: url(../../content/icon/add.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: contain;
+    float: left;
+    margin-top: 10px;
+}
+
+.content .content-title .button-new .button-value {
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.content .filter {
+    display: flex;
+    align-items: center;
+}
+
+button.btn.btn-default.dropdown-toggle {
+    height: 40px;
+    margin-right: 24px;
+}
+
+.content .filter .refresh {
+    background-image: url(../../content/icon/refresh.png);
+    display: inline-block;
+}
+
+.title-text button.btn.btn-default.dropdown-toggle {
+    border: none;
+}
+
+.title-text button.btn.btn-default.dropdown-toggle:active, .title-text button.btn.btn-default.dropdown-toggle:active:focus, .title-text button.btn.btn-default.dropdown-toggle:active:hover {
+    border: none;
+}
+
+.content-table {
+    height: calc(100% - 73px - 42px - 16px - 56px);
+}
+
+.ratio {
+    position: absolute;
+    display: inline-flex;
+    height: 24px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 100%;
+}
+
+.count-page {
+    right: 24px;
+    text-align: right;
+    float: left;
+    width: 15%;
+    margin-right: 24px;
+}
+
+.total-text {
+    float: left;
+    width: 25%;
+}
+
+.list-ratio {
+    float: left;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    padding-left: 20%;
+}
+
+.input-item .input-locate-cmt {
+    margin-bottom: 16px;
+}
